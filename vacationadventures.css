@@ -1,19 +1,58 @@
 body{
 	margin: 0 auto;
-	width: 80%;
+	width: 900px;
+	background:#aaaaaa;
 }
 
+/* Header */
+header{
+	background-color: #98bf21;
+	height:200px;
+}	
+
+.company_name{
+	position: relative;
+	font-size: 4em;
+	padding: 65px 0px 0px 0px;
+	left:50px;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+     }
+
+.company_logo{
+	float:left;
+}
+
+/* Header End */
+
+
 /* Nav Css */
+
+nav{
+	background-color: #98bf21;
+}
 
 ul{
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	overflow:hidden;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 			
 li{
 	float:left;
+	border-right: 1px solid black;
+}
+
+.navlink{
+	height:45px;
 }
 		
 a:link,a:visited{
@@ -44,7 +83,17 @@ a:hover,a:active{
 }
 
 .contact_hdr{
-	margin: ;
+	margin: 0px 15px;
+	padding: 30px;
+	font-size: 1.75em;
+	font
+}
+
+.contact_table{
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 0px;
+	margin: 0px;
 }
 
 .comment_txt_area{
@@ -54,6 +103,68 @@ a:hover,a:active{
 
 .contact_table{
 	margin: 20px 120px;
+	background: #bbbbbb;
+	box-shadow: 2px 2px 2px, -2px -2px -2px; 
+}
+
+.contact_maps_txt{
+	margin:25px;
+}
+
+iframe{
+	margin: 20px auto 0px;
 }
 
 /* Contact Page End */
+
+
+
+/* Video Page */
+.video_description_above{
+	font-size: 32px;
+	color: white;
+	padding: 3px 20px;
+	background-color:#98bf21;
+	display:block;
+
+}
+
+.video_description_below{
+	color: white;
+	font-size: 18px;
+	padding: 3px 20px;
+	background-color:#98bf21;
+	display:block;
+}
+
+/* Video Page End */
+
+
+
+
+
+/* Footer */
+
+footer{
+	height: 50px; 
+	width: 100%;
+	background-color: #98bf21;
+}
+
+.copyright{
+	float:left;
+	width:250px;
+	padding: 20px 25px;
+}
+
+.date_display{
+	padding: 20px 25px;
+}
+
+/* Footer End */
+
+
+/* Misc */
+.hr{
+	height
+}
