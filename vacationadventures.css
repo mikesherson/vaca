@@ -1,6 +1,6 @@
 body{
 	margin: 0 auto;
-	width: 80%;
+	width: 900px;
 	background:#aaaaaa;
 }
 
@@ -41,10 +41,18 @@ ul{
 	margin:0;
 	padding:0;
 	overflow:hidden;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
 			
 li{
 	float:left;
+	border-right: 1px solid black;
+}
+
+.navlink{
+	height:45px;
 }
 		
 a:link,a:visited{
@@ -75,15 +83,17 @@ a:hover,a:active{
 }
 
 .contact_hdr{
-	margin: 15px 15px;
+	margin: 0px 15px;
 	padding: 30px;
-	font-size: 1.9em;
+	font-size: 1.75em;
+	font
 }
 
 .contact_table{
 	border: 2px solid black;
 	border-radius: 20px;
-	padding:10px;
+	padding: 0px;
+	margin: 0px;
 }
 
 .comment_txt_area{
@@ -152,3 +162,9 @@ footer{
 }
 
 /* Footer End */
+
+
+/* Misc */
+.hr{
+	height
+}
