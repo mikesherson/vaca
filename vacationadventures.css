@@ -168,3 +168,18 @@ footer{
 .hr{
 	height
 }
+				.aboutus{	
+					padding-top: .5em;
+					width:  inherit;
+					height: inherit;
+					text-indent: 200px;
+					font-size: 4em;
+					font-style: block;
+						}
+				.company{
+					font-size: 1.8em;
+					margin-top:  20px;
+					margin-left: 200px;
+					text-align: justify;
+					font-style: italic;
+				}	
