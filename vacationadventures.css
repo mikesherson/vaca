@@ -1,7 +1,7 @@
 body{
 	margin: 0 auto;
 	width: 900px;
-	background:#aaaaaa;
+	background: #98bf21;;
 }
 
 /* Header */
@@ -175,6 +175,7 @@ footer{
 					text-indent: 200px;
 					font-size: 4em;
 					font-style: block;
+					background-color: #98bf21;
 						}
 				.company{
 					font-size: 1.8em;
@@ -182,6 +183,7 @@ footer{
 					margin-left: 200px;
 					text-align: justify;
 					font-style: italic;
+					background-color: #98bf21;
 				}	
 				.Happy_Family{
 					padding-top: 2em;
@@ -196,9 +198,8 @@ footer{
 					width: 400px;
 					padding-top: 50px;
 					padding-bottom: 20em;
+					background-color: #98bf21;
 
 				}
 
-				body{ 
-					background-color: #AAAAAA;
-					margin-bottom: 200px}
+
